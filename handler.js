@@ -81,9 +81,7 @@ const getDetailWisataHandler = (request, h) => {
   if (w !== undefined) {
     return {
       status: 'success',
-      data: {
-        w,
-      },
+      data: w,
     };
   }
 
